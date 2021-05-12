@@ -284,7 +284,7 @@ if (matchDomain('elmercurio.com')) {
 } else if (matchDomain('nytimes.com')) {
   const previewButton = document.querySelector('.css-3s1ce0');
   if (previewButton) { previewButton.click(); }
-  blockElement('.css-3fbowa'); // Prevent bottom dock from appearing
+  blockElement('.expanded-dock'); // Prevent bottom dock from appearing
   blockElement('#gateway-content'); // Remove paywall
   blockElement('.css-1bd8bfl'); // Remove filter
   // Restore scrolling
