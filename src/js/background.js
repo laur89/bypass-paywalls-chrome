@@ -206,6 +206,7 @@ const blockedRegexes = {
   'adweek.com': /.+\.lightboxcdn\.com\/.+/,
   'afr.com': /afr\.com\/assets\/vendorsReactRedux_client.+\.js/,
   'businessinsider.com': /(.+\.tinypass\.com\/.+|cdn\.onesignal\.com\/sdks\/.+\.js)/,
+  'bloomberg.com': /assets\.bwbx\.io\/s3\/fence\/.+/,
   'chicagotribune.com': /.+:\/\/.+\.tribdss\.com\//,
   'economist.com': /(.+\.tinypass\.com\/.+|economist\.com\/engassets\/_next\/static\/chunks\/framework.+\.js)/,
   'editorialedomani.it': /(js\.pelcro\.com\/.+|editorialedomani.it\/pelcro\.js)/,
